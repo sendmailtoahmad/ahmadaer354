@@ -1,5 +1,4 @@
 const qrcode = require('qrcode-terminal');
-heroku buildpacks:set <https://github.com/sendmailtoahmad/ahmadaer354.git>#main-branch
 const fs = require('fs');
 const { Client, LegacySessionAuth, MessageMedia } = require('whatsapp-web.js');
 
